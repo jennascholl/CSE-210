@@ -1,0 +1,16 @@
+C:\Projects\CSE 210\Teach2\bin\Debug\net5.0\Teach2.exe
+C:\Projects\CSE 210\Teach2\bin\Debug\net5.0\Teach2.deps.json
+C:\Projects\CSE 210\Teach2\bin\Debug\net5.0\Teach2.runtimeconfig.json
+C:\Projects\CSE 210\Teach2\bin\Debug\net5.0\Teach2.runtimeconfig.dev.json
+C:\Projects\CSE 210\Teach2\bin\Debug\net5.0\Teach2.dll
+C:\Projects\CSE 210\Teach2\bin\Debug\net5.0\Teach2.pdb
+C:\Projects\CSE 210\Teach2\obj\Debug\net5.0\Teach2.csproj.AssemblyReference.cache
+C:\Projects\CSE 210\Teach2\obj\Debug\net5.0\Teach2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\CSE 210\Teach2\obj\Debug\net5.0\Teach2.AssemblyInfoInputs.cache
+C:\Projects\CSE 210\Teach2\obj\Debug\net5.0\Teach2.AssemblyInfo.cs
+C:\Projects\CSE 210\Teach2\obj\Debug\net5.0\Teach2.csproj.CoreCompileInputs.cache
+C:\Projects\CSE 210\Teach2\obj\Debug\net5.0\Teach2.dll
+C:\Projects\CSE 210\Teach2\obj\Debug\net5.0\refint\Teach2.dll
+C:\Projects\CSE 210\Teach2\obj\Debug\net5.0\Teach2.pdb
+C:\Projects\CSE 210\Teach2\obj\Debug\net5.0\Teach2.genruntimeconfig.cache
+C:\Projects\CSE 210\Teach2\obj\Debug\net5.0\ref\Teach2.dll

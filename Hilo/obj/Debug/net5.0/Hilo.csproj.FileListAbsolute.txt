@@ -1,0 +1,16 @@
+C:\Projects\CSE 210\Hilo\bin\Debug\net5.0\Hilo.exe
+C:\Projects\CSE 210\Hilo\bin\Debug\net5.0\Hilo.deps.json
+C:\Projects\CSE 210\Hilo\bin\Debug\net5.0\Hilo.runtimeconfig.json
+C:\Projects\CSE 210\Hilo\bin\Debug\net5.0\Hilo.runtimeconfig.dev.json
+C:\Projects\CSE 210\Hilo\bin\Debug\net5.0\Hilo.dll
+C:\Projects\CSE 210\Hilo\bin\Debug\net5.0\Hilo.pdb
+C:\Projects\CSE 210\Hilo\obj\Debug\net5.0\Hilo.csproj.AssemblyReference.cache
+C:\Projects\CSE 210\Hilo\obj\Debug\net5.0\Hilo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\CSE 210\Hilo\obj\Debug\net5.0\Hilo.AssemblyInfoInputs.cache
+C:\Projects\CSE 210\Hilo\obj\Debug\net5.0\Hilo.AssemblyInfo.cs
+C:\Projects\CSE 210\Hilo\obj\Debug\net5.0\Hilo.csproj.CoreCompileInputs.cache
+C:\Projects\CSE 210\Hilo\obj\Debug\net5.0\Hilo.dll
+C:\Projects\CSE 210\Hilo\obj\Debug\net5.0\refint\Hilo.dll
+C:\Projects\CSE 210\Hilo\obj\Debug\net5.0\Hilo.pdb
+C:\Projects\CSE 210\Hilo\obj\Debug\net5.0\Hilo.genruntimeconfig.cache
+C:\Projects\CSE 210\Hilo\obj\Debug\net5.0\ref\Hilo.dll

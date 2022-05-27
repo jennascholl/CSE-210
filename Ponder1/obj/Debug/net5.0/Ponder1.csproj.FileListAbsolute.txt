@@ -1,0 +1,16 @@
+C:\Projects\CSE 210\Ponder1\bin\Debug\net5.0\Ponder1.exe
+C:\Projects\CSE 210\Ponder1\bin\Debug\net5.0\Ponder1.deps.json
+C:\Projects\CSE 210\Ponder1\bin\Debug\net5.0\Ponder1.runtimeconfig.json
+C:\Projects\CSE 210\Ponder1\bin\Debug\net5.0\Ponder1.runtimeconfig.dev.json
+C:\Projects\CSE 210\Ponder1\bin\Debug\net5.0\Ponder1.dll
+C:\Projects\CSE 210\Ponder1\bin\Debug\net5.0\Ponder1.pdb
+C:\Projects\CSE 210\Ponder1\obj\Debug\net5.0\Ponder1.csproj.AssemblyReference.cache
+C:\Projects\CSE 210\Ponder1\obj\Debug\net5.0\Ponder1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\CSE 210\Ponder1\obj\Debug\net5.0\Ponder1.AssemblyInfoInputs.cache
+C:\Projects\CSE 210\Ponder1\obj\Debug\net5.0\Ponder1.AssemblyInfo.cs
+C:\Projects\CSE 210\Ponder1\obj\Debug\net5.0\Ponder1.csproj.CoreCompileInputs.cache
+C:\Projects\CSE 210\Ponder1\obj\Debug\net5.0\Ponder1.dll
+C:\Projects\CSE 210\Ponder1\obj\Debug\net5.0\refint\Ponder1.dll
+C:\Projects\CSE 210\Ponder1\obj\Debug\net5.0\Ponder1.pdb
+C:\Projects\CSE 210\Ponder1\obj\Debug\net5.0\Ponder1.genruntimeconfig.cache
+C:\Projects\CSE 210\Ponder1\obj\Debug\net5.0\ref\Ponder1.dll

@@ -1,0 +1,16 @@
+C:\Projects\CSE 210\SoloPrep3\bin\Debug\net5.0\SoloPrep3.exe
+C:\Projects\CSE 210\SoloPrep3\bin\Debug\net5.0\SoloPrep3.deps.json
+C:\Projects\CSE 210\SoloPrep3\bin\Debug\net5.0\SoloPrep3.runtimeconfig.json
+C:\Projects\CSE 210\SoloPrep3\bin\Debug\net5.0\SoloPrep3.runtimeconfig.dev.json
+C:\Projects\CSE 210\SoloPrep3\bin\Debug\net5.0\SoloPrep3.dll
+C:\Projects\CSE 210\SoloPrep3\bin\Debug\net5.0\SoloPrep3.pdb
+C:\Projects\CSE 210\SoloPrep3\obj\Debug\net5.0\SoloPrep3.csproj.AssemblyReference.cache
+C:\Projects\CSE 210\SoloPrep3\obj\Debug\net5.0\SoloPrep3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\CSE 210\SoloPrep3\obj\Debug\net5.0\SoloPrep3.AssemblyInfoInputs.cache
+C:\Projects\CSE 210\SoloPrep3\obj\Debug\net5.0\SoloPrep3.AssemblyInfo.cs
+C:\Projects\CSE 210\SoloPrep3\obj\Debug\net5.0\SoloPrep3.csproj.CoreCompileInputs.cache
+C:\Projects\CSE 210\SoloPrep3\obj\Debug\net5.0\SoloPrep3.dll
+C:\Projects\CSE 210\SoloPrep3\obj\Debug\net5.0\refint\SoloPrep3.dll
+C:\Projects\CSE 210\SoloPrep3\obj\Debug\net5.0\SoloPrep3.pdb
+C:\Projects\CSE 210\SoloPrep3\obj\Debug\net5.0\SoloPrep3.genruntimeconfig.cache
+C:\Projects\CSE 210\SoloPrep3\obj\Debug\net5.0\ref\SoloPrep3.dll
