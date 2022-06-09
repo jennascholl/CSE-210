@@ -123,7 +123,7 @@ namespace Unit04.Game.Directing
                 rock.SetPosition(point);
                 if (robot.GetPosition().Equals(rock.GetPosition()))
                 {
-                    score -= rock.GetPrize();
+                    score += rock.GetPrize();
                     cast.GetFirstActor("banner").SetText("SCORE: " + score);
                     cast.RemoveActor("rocks", rock);
                 }
