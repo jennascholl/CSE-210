@@ -34,7 +34,7 @@ namespace Unit04.Game.Directing
         }
 
         /// <summary>
-        /// Starts the game by running the main game loop for the given cast.
+        /// Starts the game by running the main game loop, spawning new cast indefinitely.
         /// </summary>
         /// <param name="cast">The given cast.</param>
         public void StartGame(Cast cast)
@@ -100,7 +100,7 @@ namespace Unit04.Game.Directing
         }
 
         /// <summary>
-        /// Updates the robot's position and resolves any collisions with artifacts.
+        /// Updates the robot's position and determines if it has made contact with any objects.
         /// </summary>
         /// <param name="cast">The given cast.</param>
         private void DoUpdates(Cast cast)
@@ -116,26 +116,26 @@ namespace Unit04.Game.Directing
 
             Point newPoint = new Point(0, 10);
 
-            foreach (Actor rock in rocks)
+            foreach (Rock rock in rocks)
             {
                 Point point = rock.GetPosition();
                 point = point.Add(newPoint);
                 rock.SetPosition(point);
                 if (robot.GetPosition().Equals(rock.GetPosition()))
                 {
-                    score -= 1;
+                    score -= rock.GetPrize();
                     cast.GetFirstActor("banner").SetText("SCORE: " + score);
                     cast.RemoveActor("rocks", rock);
                 }
             }
-            foreach (Actor gem in gems)
+            foreach (Gem gem in gems)
             {
                 Point point = gem.GetPosition();
                 point = point.Add(newPoint);
                 gem.SetPosition(point);
                 if (robot.GetPosition().Equals(gem.GetPosition()))
                 {
-                    score += 1;
+                    score += gem.GetPrize();
                     cast.GetFirstActor("banner").SetText("SCORE: " + score);
                     cast.RemoveActor("gems", gem);
                 }
