@@ -34,7 +34,7 @@ namespace Unit05.Game.Scripting
                 HandleCollisions(cast);
                 HandleGameOver(cast);
                 counter++;
-                if (counter % 15 == 0)
+                if (counter % 15 == 0 && isGameOver == false)
                 {
                     Snake player1 = (Player1)cast.GetFirstActor("player1");
                     Snake player2 = (Player2)cast.GetFirstActor("player2");
