@@ -24,6 +24,10 @@ namespace Unit04.Game.Services
         {
             this.cellSize = cellSize;
         }
+
+        /// <summary>
+        /// Returns which direction player 1 is moving based on keyboard input.
+        /// </summary>
         public Point GetDirection1()
         {
             int dx = 0;
@@ -40,6 +44,10 @@ namespace Unit04.Game.Services
 
             return direction;
         }
+
+        /// <summary>
+        /// Returns which direction player 2 is moving based on keyboard input.
+        /// </summary>
         public Point GetDirection2()
         {
             int dx = 0;
@@ -56,6 +64,10 @@ namespace Unit04.Game.Services
 
             return direction;
         }
+
+        /// <summary>
+        /// Returns whether the game has been started based on keyboard input.
+        /// </summary>
         public Point GetStart(Cast cast)
         {
             Puck puck = (Puck)cast.GetFirstActor("puck");

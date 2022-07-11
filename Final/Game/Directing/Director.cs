@@ -30,7 +30,7 @@ namespace Unit04.Game.Directing
         }
 
         /// <summary>
-        /// Starts the game by running the main game loop, spawning new cast indefinitely.
+        /// Starts the game by running the main game loop.
         /// </summary>
         /// <param name="cast">The given cast.</param>
         public void StartGame(Cast cast)
@@ -46,7 +46,7 @@ namespace Unit04.Game.Directing
         }
 
         /// <summary>
-        /// Gets directional input from the keyboard and applies it to the robot.
+        /// Gets directional input from the keyboard and applies it to the players and gameplay.
         /// </summary>
         /// <param name="cast">The given cast.</param>
         private void GetInputs(Cast cast)
@@ -68,7 +68,7 @@ namespace Unit04.Game.Directing
         }
 
         /// <summary>
-        /// Updates the robot's position and determines if it has made contact with any objects.
+        /// Updates the positions of the players and puck, keeps track of collisions, and counts points.
         /// </summary>
         /// <param name="cast">The given cast.</param>
         private void DoUpdates(Cast cast)
@@ -84,6 +84,8 @@ namespace Unit04.Game.Directing
 
             int maxX = videoService.GetWidth();
             int maxY = videoService.GetHeight();
+
+            // check collisions
 
             CollisionService collisionService = new CollisionService();
             Point collisionResetLeft = new Point(10, 0);
@@ -117,6 +119,7 @@ namespace Unit04.Game.Directing
                 Point horCollisionPointL = new Point(x - r, y);
                 Point horCollisionPointR = new Point(x + r, y);
 
+                // determines where the puck has been hit and which direction it should move
                 if ((horCollisionPointL.GetX() < player1.GetPosition().GetX() + r
                     && horCollisionPointL.GetX() > player1.GetPosition().GetX() - r
                     && horCollisionPointL.GetY() > player1.GetPosition().GetY() - r
@@ -154,9 +157,13 @@ namespace Unit04.Game.Directing
                 }
             }
 
+            // update object locations
+
             player1.MoveNext(maxX, maxY);
             player2.MoveNext(maxX, maxY);
             puck.MoveNext(maxX, maxY);
+
+            // check goals
 
             if(collisionService.IsGoal(puck, maxY))
             {
@@ -172,6 +179,8 @@ namespace Unit04.Game.Directing
                 score1.SetText(player1.score.ToString());
                 score2.SetText(player2.score.ToString());
             }
+
+            // check if game is won
 
             if(player1.WonGame() || player2.WonGame())
             {

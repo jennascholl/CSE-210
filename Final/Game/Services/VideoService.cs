@@ -79,13 +79,16 @@ namespace Unit04.Game.Services
             Raylib_cs.Color color = ToRaylibColor(BLACK);
             Raylib.DrawText(text, x - 15, y - 15, actor.GetFontSize(), color);
         }
+        /// <summary>
+        /// Draws a circle on the screen at the provided coordinates.
+        /// </summary>
         private void DrawCircle(int x, int y, int r, Actor actor)
         {
             Raylib_cs.Color color = ToRaylibColor(actor.GetColor());
             Raylib.DrawCircle(x, y, r, color);
         }
         /// <summary>
-        /// Draws the given actor's text on the screen.
+        /// Draws the given actor on the screen.
         /// </summary>
         /// <param name="actor">The actor to draw.</param>
         public void DrawActor(Actor actor)
@@ -176,10 +179,6 @@ namespace Unit04.Game.Services
             Raylib.InitWindow(width, height, caption);
             Raylib.SetTargetFPS(frameRate);
         }
-
-        /// <summary>
-        /// Draws a grid on the screen.
-        /// </summary>
 
         /// <summary>
         /// Converts the given color to it's Raylib equivalent.
